@@ -20,3 +20,14 @@ interface withLenght {
 //let t = echo({length: 2, name: "aa"});
 
 //let b = echo(1);
+
+function echo(arg) {
+    console.log(arg.length);
+    return arg;
+}
+
+var a = echo("aaa");
+var t = echo({length: 2, name: "aa"});
+
+//esto no funciona
+//var b = echo(1);
