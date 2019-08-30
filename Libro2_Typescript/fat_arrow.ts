@@ -19,3 +19,8 @@ function Person1(age) {
   setTimeout(person2.growOld,1000);
   setTimeout(function() { console.log(person2.age); },2000); // 2
   
+ // let _self = this;
+//something.each(function() {
+  //  console.log(_self); // the lexically scoped value
+   // console.log(this); // the library passed value
+//});
