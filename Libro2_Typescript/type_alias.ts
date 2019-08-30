@@ -9,3 +9,9 @@ function getName(n: NameOrResolver): Name {
         return n();
     }
 }
+
+type Tree<T> = {
+    value: T;
+    left: Tree<T>;
+    right: Tree<T>;
+}
