@@ -44,5 +44,28 @@ function infiniteSequence() {
 }
 var iterator = infiniteSequence();
 while (true) {
-    console.log(iterator.next()); // { value: xxxx, done: false } para siempre
+    console.log(iterator.next());
 }
+function idMaker() {
+    var index;
+    return __generator(this, function (_a) {
+        switch (_a.label) {
+            case 0:
+                index = 0;
+                _a.label = 1;
+            case 1:
+                if (!(index < 3)) return [3 /*break*/, 3];
+                return [4 /*yield*/, index++];
+            case 2:
+                _a.sent();
+                return [3 /*break*/, 1];
+            case 3: return [2 /*return*/];
+        }
+    });
+}
+var gen = idMaker();
+console.log(gen.next());
+console.log(gen.next());
+console.log(gen.next());
+console.log(gen.next());
+// Accede a la variable por que se le ha dicho apesar de que el 'yield' no ha sido efectuado.
