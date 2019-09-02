@@ -43,3 +43,6 @@ class Calculo {
         return this.getY();
     }
 }
+
+let calculo = new Calculo(30,10);
+console.log(calculo.restar());

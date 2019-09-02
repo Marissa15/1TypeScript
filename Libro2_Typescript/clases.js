@@ -42,3 +42,5 @@ var Calculo = /** @class */ (function () {
     };
     return Calculo;
 }());
+var calculo = new Calculo(30, 10);
+console.log(calculo.restar());
