@@ -95,3 +95,30 @@ gen.next();
 gen.next('pretzel');
 gen.next('california');
 gen.next('mayonnaise');
+function getFirstName() {
+    setTimeout(function () {
+        gen.next('alex');
+    }, 1000);
+}
+function getSecondName() {
+    setTimeout(function () {
+        gen.next('perry');
+    }, 1000);
+}
+function sayHello() {
+    var a, b;
+    return __generator(this, function (_a) {
+        switch (_a.label) {
+            case 0: return [4 /*yield*/, getFirstName()];
+            case 1:
+                a = _a.sent();
+                return [4 /*yield*/, getSecondName()];
+            case 2:
+                b = _a.sent();
+                console.log(a, b); //alex perry
+                return [2 /*return*/];
+        }
+    });
+}
+var gen2 = sayHello();
+gen.next();
