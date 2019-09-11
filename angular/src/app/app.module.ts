@@ -10,6 +10,8 @@ import {fecha_actualComponent} from './fecha_actual/fecha_actual.component';
 import { CopyrightComponent } from './copyright/copyright.component';
 import { EjdirectivangifComponent } from './ejdirectivangif/ejdirectivangif.component';
 import { ViewmodeloComponent } from './viewmodelo/viewmodelo.component';
+import { EjdirectivangstyleComponent } from './ejdirectivangstyle/ejdirectivangstyle.component';
+import { EjdirectivangclassComponent } from './ejdirectivangclass/ejdirectivangclass.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { ViewmodeloComponent } from './viewmodelo/viewmodelo.component';
     fecha_actualComponent,
     CopyrightComponent,
     EjdirectivangifComponent,
-    ViewmodeloComponent
+    ViewmodeloComponent,
+    EjdirectivangstyleComponent,
+    EjdirectivangclassComponent
   ],
   imports: [
     BrowserModule, FormsModule,
