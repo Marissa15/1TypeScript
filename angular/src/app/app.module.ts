@@ -12,6 +12,9 @@ import { EjdirectivangifComponent } from './ejdirectivangif/ejdirectivangif.comp
 import { ViewmodeloComponent } from './viewmodelo/viewmodelo.component';
 import { EjdirectivangstyleComponent } from './ejdirectivangstyle/ejdirectivangstyle.component';
 import { EjdirectivangclassComponent } from './ejdirectivangclass/ejdirectivangclass.component';
+import { EjdirectivangforComponent } from './ejdirectivangfor/ejdirectivangfor.component';
+import { ArrayobjetosComponent } from './arrayobjetos/arrayobjetos.component';
+import { EjdirectivangswitchComponent } from './ejdirectivangswitch/ejdirectivangswitch.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { EjdirectivangclassComponent } from './ejdirectivangclass/ejdirectivangc
     EjdirectivangifComponent,
     ViewmodeloComponent,
     EjdirectivangstyleComponent,
-    EjdirectivangclassComponent
+    EjdirectivangclassComponent,
+    EjdirectivangforComponent,
+    ArrayobjetosComponent,
+    EjdirectivangswitchComponent
   ],
   imports: [
     BrowserModule, FormsModule,
