@@ -1,0 +1,41 @@
+.lakers{
+    width: 650px;
+    height: 100px;
+    border: 3px solid #542084;
+    background: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-image: url("lakers.png");
+    background-size: 150px 50px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.celtics{
+    width: 650px;
+    height: 100px;
+    border: 3px solid #006b3e;
+    background: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-image: url("celtics.png");
+    background-size: 150px 50px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.bulls{
+    width: 650px;
+    height: 100px;
+    border: 3px solid red;
+    background: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-image: url("bulls.jpg");
+    background-size: 150px 50px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
