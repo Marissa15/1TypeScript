@@ -1,41 +1,48 @@
+ul{
+    list-style: none;
+}
+
+.equipo{
+    color: rgb(83, 83, 228);
+}
+
 .lakers{
     width: 650px;
     height: 100px;
-    border: 3px solid #542084;
-    background: white;
+    border-style: solid;
+    border-width: 5px;
+    border: 3px solid rgb(99, 16, 99);
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    color: black;
     background-image: url("lakers.png");
-    background-size: 150px 50px;
+    background-size: 110px 70px;
     background-repeat: no-repeat;
     background-position: left;
+    box-shadow: 0 4px 8px 0 purple, 0 6px 20px 0 purple;
 }
 
 .celtics{
     width: 650px;
     height: 100px;
-    border: 3px solid #006b3e;
-    background: white;
+    border: 3px solid #077c4b;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    color: black;
     background-image: url("celtics.png");
-    background-size: 150px 50px;
+    background-size: 105px 65px;
     background-repeat: no-repeat;
     background-position: left;
+    box-shadow: 0 4px 8px 0 rgb(7, 95, 7), 0 6px 20px 0 rgb(2, 109, 2);
 }
 
 .bulls{
     width: 650px;
     height: 100px;
     border: 3px solid red;
-    background: white;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    color: black;
     background-image: url("bulls.jpg");
-    background-size: 150px 50px;
+    background-size: 100px 57px;
     background-repeat: no-repeat;
     background-position: left;
+    box-shadow: 0 4px 8px 0 rgb(138, 6, 6), 0 6px 20px 0 rgb(133, 6, 6);
 }

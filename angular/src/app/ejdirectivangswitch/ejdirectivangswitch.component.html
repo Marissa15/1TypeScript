@@ -1,10 +1,6 @@
-<ul *ngFor="let jugador of jugadores">
-    <li>
-        <h4>{{ jugador.nombre }} | {{ jugador.equipo }}</h4>
-    </li>
-</ul>
 
-<div class="text-center">
+
+<div class="text-center" align="center">
     <ul *ngFor="let jugador of jugadores" [ngSwitch]="jugador.equipo">
         <li *ngSwitchCase="'L.A. Lakers'" class="lakers">
             <h3>{{jugador.nombre}}</h3>

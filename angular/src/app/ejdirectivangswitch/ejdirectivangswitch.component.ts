@@ -12,7 +12,8 @@ export class EjdirectivangswitchComponent implements OnInit {
   jugadores: any[] = [
     {nombre: 'Earvin Jhonson', equipo: 'L.A. Lakers'},
     {nombre: 'Larry Bird', equipo: 'Boston Celtics'},
-    {nombre: 'Michael Jordan', equipo: 'Chicago Bulls'}
+    {nombre: 'Michael Jordan', equipo: 'Chicago Bulls'},
+    {nombre: 'Kareem Abdul-Jabbar ', equipo: 'L.A. Lakers'}
   ]
   ngOnInit() {
   }
